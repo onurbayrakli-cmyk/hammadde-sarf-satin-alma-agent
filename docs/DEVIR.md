@@ -4,7 +4,7 @@ Bu devir yalnız hammadde ve sarf satın alma agentını kapsar. Uygulama sürü
 
 ## Kaynağı edinme
 
-GitHub üzerinden çalışma için özel repoya erişimi olan bir GitHub hesabı gerekir. Alıcı hesabı ve izin düzeyi doğrulanır, davet kabul edildikten sonra repo klonlanır. Özel repo URL'sinin paylaşılması veya davetin gönderilmesi erişimin kabul edildiği anlamına gelmez. Hesabı olmayan alıcı kurulum ZIP'ini ayrı alabilir; GitHub hesabı açılınca erişim ayrıca düzenlenir.
+Bu repo herkese açıktır. GitHub hesabı olmadan kaynaklar görüntülenebilir, ZIP olarak indirilebilir ve HTTPS üzerinden klonlanabilir. Kaynaklara katkıda bulunma veya doğrudan yazma yetkisi ayrı bir konudur; gerekiyorsa doğru GitHub hesabı ve izin seviyesi ayrıca doğrulanır. Hesabı olmayan alıcı da kaynak ZIP'ini kullanarak kurulum rehberini izleyebilir.
 
 Repo GitHub ZIP'i olarak indirildiyse de kök `README.md` ve `app/` aynı yapıdadır. ZIP'in klasör adını kaynak sürümü veya kurulum kabulü sanmayın. Tam iş veritabanı/ayar yedeği bu kaynak devir paketine dahil değildir.
 
