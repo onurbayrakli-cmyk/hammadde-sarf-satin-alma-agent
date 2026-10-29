@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "source_system": "SAP_DEV_200",
+  "origin": null,
+  "service_root": null,
+  "entity_set": null,
+  "sap_client": null,
+  "allowed_networks": [],
+  "auth": {
+    "mode": "none",
+    "username_env": null,
+    "password_env": null,
+    "bearer_env": null
+  },
+  "tls": {
+    "ca_file": null
+  },
+  "field_map": {},
+  "max_response_bytes": 1048576,
+  "timeout_seconds": 8
+}
