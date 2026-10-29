@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "project": "hammadde-sarf-satin-alma-agent",
+  "repository_prepared_on": "2026-10-29",
+  "source_release": "0.3.0",
+  "source_archive": "Hammadde_Sarf_MacMini_v0.3.0.zip",
+  "source_archive_sha256": "917d1d818387eabf2a265552229e42531d03d51c4c7a4bd8d1c98226ef95f8f7",
+  "source_manifest_sha256": "677e3c22c37ed3c7b7dc28add1d1f8656e7f447b53666709603c5cb4b299bdc1",
+  "application_directory": "app",
+  "application_source_files": 88,
+  "application_files_including_manifest": 89,
+  "application_bytes_changed_for_repository": false,
+  "includes_business_data": false,
+  "includes_credentials": false,
+  "release_stage": "source_pilot",
+  "production_ready": false,
+  "target_mac_installation_verified": false,
+  "live_sap_adapter_verified": false,
+  "automated_mail_delivery_verified": false,
+  "historical_source_tests": {
+    "date": "2026-10-22",
+    "root": 372,
+    "components": 416,
+    "protocol": 18,
+    "total": 806
+  }
+}
