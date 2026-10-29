@@ -27,4 +27,4 @@ Türkçe, açık ve kanıta dayalı iletişim kur. Bu repo yalnız hammadde ve s
 
 Python komutlarını `uv run` ile, uygulama testlerini geçici sentetik state ile çalıştır. `PYTHONDONTWRITEBYTECODE=1` ve pytest `-p no:cacheprovider` kullanarak manifestli kaynağa cache yazma. Güncel doğrulama sonucunu, kapsamını ve kalan engeli belirt; tarihli 806 test sonucunu yeni çalışma gibi sunma. Kabul kaydını `app/Kabul_Kaydi_Sablonu.md` kopyasıyla repo dışında tut.
 
-GitHub'a yazma/paylaşma gerektiğinde hesap, repo, görünürlük ve alıcıyı doğrula. Özel repo bağlantısı alıcıya erişim vermez; gönderilen davet ile kabul edilmiş erişimi ayrı raporla. Kişisel veri veya ileti içeriğini proje notuna kaydetme.
+GitHub'a yazma/paylaşma gerektiğinde hesap, repo, görünürlük ve alıcıyı doğrula. Bu reponun herkese açık okuma/indirme erişimi ile doğrudan yazma/collaborator yetkisini ayır. Yeni yazma davetinde gönderilen davet ile kabul edilmiş erişimi ayrı raporla. Kişisel veri veya ileti içeriğini proje notuna kaydetme.

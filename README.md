@@ -86,7 +86,7 @@ Kaynak DEV GUI'de metadata ve seçilmiş tek kalem GET okuması doğrulanmışt�
 
 ## Paylaşım ve geliştirme
 
-Repo özeldir. Özel GitHub reposunu klonlayacak kişinin GitHub hesabı, doğru kullanıcıya verilmiş erişim ve kabul edilmiş daveti gerekir. Hesabı olmayan alıcı için kaynak/kurulum ZIP'i ayrı paylaşılabilir; repo bağlantısı tek başına erişim sağlamaz. Yeni erişim daveti göndermeden önce hedef hesap ve izin düzeyi doğrulanır.
+Repo herkese açıktır. Kaynakları görüntülemek, ZIP olarak indirmek ve HTTPS üzerinden klonlamak için GitHub hesabı veya davet gerekmez. Repoya doğrudan yazma yetkisi ayrıca yönetilir; herkese açık görünürlük yazma yetkisi vermez. Yeni erişim daveti göndermeden önce hedef hesap ve izin düzeyi doğrulanır.
 
 Bu devirde `app/` işlevsel kaynakları 0.3.0 paketinden aynen korunur. Sonraki geliştirmeler ayrı dalda yapılmalı; uygulama sürümü, açık dosya seçimi, hash envanteri ve temiz çıkarım testleri birlikte güncellenmelidir. Hata kontrolünü geçmek için doğrulayıcı gevşetilmez. Çalışan pilot config/state'i geliştirme verisi olarak kullanılmaz.
 
