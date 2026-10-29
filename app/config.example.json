@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "state_dir": "/ABSOLUTE/PERSISTENT/SatinAlmaAgent/state",
+  "langflow": {
+    "base_url": "http://127.0.0.1:7860",
+    "flow_id": null,
+    "api_key_env": "SATINALMA_LANGFLOW_API_KEY",
+    "database_path": null
+  }
+}

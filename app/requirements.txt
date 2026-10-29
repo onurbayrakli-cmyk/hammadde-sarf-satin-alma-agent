@@ -1,0 +1,6 @@
+# Candidate environment. Target installation and compatibility still require validation.
+langflow==1.12.4
+requests>=2.32,<3
+httpx>=0.28,<1
+urllib3>=2.2,<3
+pytest>=8,<10

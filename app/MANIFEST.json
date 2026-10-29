@@ -1,0 +1,543 @@
+{
+  "auto_execute": false,
+  "created_at": "2026-10-22T09:42:43.740297Z",
+  "files": [
+    {
+      "kind": "setup",
+      "path": "AGENTS.md",
+      "sha256": "cf4b61bd02b51ece22d791320e4a094304115d64bd413c403f905e5f9d8dbc1a",
+      "size": 2632
+    },
+    {
+      "kind": "setup",
+      "path": "CLAUDE.md",
+      "sha256": "a6c0d9e1b0fe48558aec9ce1264a6ad5cddbb4d5737b47293fedf3050c22eb66",
+      "size": 198
+    },
+    {
+      "kind": "setup",
+      "path": "Kabul_Kaydi_Sablonu.md",
+      "sha256": "9d2e7e926fe6aa008d5a7534cf470b1a11ed3cd8fd97a547670e92bd775ab3b4",
+      "size": 5108
+    },
+    {
+      "kind": "setup",
+      "path": "Kurulum_Gorevi.md",
+      "sha256": "8e6b7475835d600b4575ccd5301bbcb701818ecdaf949cc90fd481842cad3580",
+      "size": 4649
+    },
+    {
+      "kind": "setup",
+      "path": "Kurulum_ve_Guncelleme.md",
+      "sha256": "fa513673fa621a2d95f701bfb10ef4a14aa1eb1d0aaf93be69b2389d69f7bac4",
+      "size": 14970
+    },
+    {
+      "kind": "setup",
+      "path": "LICENSE.langflow.txt",
+      "sha256": "48d4a7496209a9e1f2f549384251b69319360c3a38127cf513473590be383359",
+      "size": 1065
+    },
+    {
+      "kind": "setup",
+      "path": "README.md",
+      "sha256": "b16d5fa8014237f65cc541938976922ebebe39824c6b2826ca3ea1f14458cd9c",
+      "size": 29786
+    },
+    {
+      "kind": "setup",
+      "path": "START_HERE.md",
+      "sha256": "27a145e3946a42a1982f562b509d6e5d55127e53ee6f0decdb302b617b0ad5f2",
+      "size": 2786
+    },
+    {
+      "kind": "setup",
+      "path": "SURUM_NOTLARI.md",
+      "sha256": "5e950f61d8b75eac056f81c654c63741398a961a6e8d59c585ea15d08e95ef4e",
+      "size": 2514
+    },
+    {
+      "kind": "fixture",
+      "path": "agent/Claude_Dogrulanmis_Rapor.txt",
+      "sha256": "65e99d4f900e764e331c150341bc0706bd2f0e9e59aa2433cf2e09aba2391733",
+      "size": 1135
+    },
+    {
+      "kind": "fixture",
+      "path": "agent/Ornek_Tablo.txt",
+      "sha256": "2ec94a1b8addbefb75c3cef27b6923be2fe5b8b30ae2142ed4d5f1ae4c37c01d",
+      "size": 955
+    },
+    {
+      "kind": "source",
+      "path": "agent/case_store.py",
+      "sha256": "22f68475b566a1226987a0c6f3c51a41d6c1c9047189bb2300b34145a462e2c3",
+      "size": 30897
+    },
+    {
+      "kind": "source",
+      "path": "agent/case_worker.py",
+      "sha256": "539b34a22cc57841ec82e0b3480ebf23f8eb6aae3585388e52a7ac9eebf726cc",
+      "size": 30526
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/claude_supplier_search.py",
+      "sha256": "101876a94b90f78779c19971359d129e9623f5fd3048fd8432b283952a2afe71",
+      "size": 5267
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/mail_intake.py",
+      "sha256": "36142febe8a84a04769a213887646d7842979b843776958a32c5e91e67c0c685",
+      "size": 12105
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/manager_package.py",
+      "sha256": "1aea128cb27b8a7d149de671a88eb9234d7ec2ed3f27e310e3afc0418fb2ac9e",
+      "size": 1776
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/negotiation_draft.py",
+      "sha256": "7c56246fbf055a21a0f221bf98461c0b2356b429b86efeedf5f8a13c853f1de4",
+      "size": 27183
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/negotiation_market.py",
+      "sha256": "e46c555980f68e24e738d235d7c36de606c4f39ef1bb66cd5b825751b7e5bf8a",
+      "size": 23480
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/negotiation_plan.py",
+      "sha256": "d2796d26b3d336d68b3300bd7bbb426634b539be834b0731e317ea78290ada52",
+      "size": 28045
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/procurement_research.py",
+      "sha256": "93e9e426cb9facde8d29beaa184be511a90bd05db1b1f64fa30317ac683f69ee",
+      "size": 38905
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/purchase_intake.py",
+      "sha256": "fe58684bf00139f656a0c0d8dd83cb8ef3293fc15992b819686f3ec0f4dc8aac",
+      "size": 7990
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/quote_comparison.py",
+      "sha256": "670d1789ed6affde2e4e818a24484310777415815a2ccebf64547c90073a2db5",
+      "size": 33404
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/report_table.py",
+      "sha256": "233b9e9fea6f4db81d955c5f60a9ea1df5dc3acd0a0cbb6fcce32518a95e6cc6",
+      "size": 20344
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/request_coordinator.py",
+      "sha256": "f95686881b84258361f38bdf33386805148730502f232d420eef181c1f66f0c0",
+      "size": 12961
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/rfq.py",
+      "sha256": "4017bc6c5b0f1600ce9d1f9dfd05448ff81fccaa5eb0e849f248a91b125d4975",
+      "size": 20146
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/rfq_tracking.py",
+      "sha256": "2be65e35cfde78e72b80db957f39818e25d7f0d01d305ac0f2bf66d26162022d",
+      "size": 14861
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/sap_intake.py",
+      "sha256": "92b51e1d5f1ada8db1a01c57d6b3574ea857a6d7e62cd9ea53c6f0b9efec81fe",
+      "size": 29611
+    },
+    {
+      "kind": "source",
+      "path": "agent/components/stock_rules.py",
+      "sha256": "eb58e58dda4193d80faabf7b85f6f09fb873bdf09ef5f554d1d35eac35ad4e7a",
+      "size": 10066
+    },
+    {
+      "kind": "protocol_test",
+      "path": "agent/components/test_claude_supplier_search.py",
+      "sha256": "de98407b6f9333b10c04f4553e441b5ee28dc67aab0accd45597f6f1c6b9ac7d",
+      "size": 5021
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_dual_input_research.py",
+      "sha256": "40394fb644ebd9d1b143094e8e2b4f61c09497c63223c8516d61686c842867cc",
+      "size": 3565
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_negotiation_draft.py",
+      "sha256": "02ba73a13f58d00c7f821544bc9fa415d91400e9ee75d1028b2761c78cfb09ca",
+      "size": 22900
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_negotiation_market.py",
+      "sha256": "72fdfc2c40d0f81702339f83ee2795fd73d30cb27fadba8d78a28a075a54b710",
+      "size": 18633
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_negotiation_plan.py",
+      "sha256": "482b4ad01e20718b5329fc0667b31dc9e2e300648598a3afe02bb1eb299db629",
+      "size": 25113
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_procurement_intake.py",
+      "sha256": "eeda11a372767cec3c7284b8525c7216c230c007eced9a0a801107d451a61e39",
+      "size": 12411
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_procurement_research.py",
+      "sha256": "ecdef7e428ab552225004810df43fd4649bd890855bef24076ce0389ad229d4c",
+      "size": 14911
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_quote_comparison.py",
+      "sha256": "dfbd7054d63a9a92e106b07a3db2729b0293792e20f0a134729375e65631597c",
+      "size": 21687
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_report_table.py",
+      "sha256": "48b4d1f0def74b0a035af92dede3b7a5d05d67c202addf085e4128ca1380fef3",
+      "size": 16883
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_request_coordinator.py",
+      "sha256": "c0f215fee1e6c7557bfadad10451eaa67ffd6e8fd50baad3fee19a616bd34c65",
+      "size": 10246
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_request_research_gate.py",
+      "sha256": "d17663947705490c3c16aa35729682bb6ef5f50639ad2eaf0fbc7539f193fc0a",
+      "size": 11863
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_rfq.py",
+      "sha256": "09db836f7bc63e625caf482ef87de1ddc49af7c41c7076903751b30bd2905eeb",
+      "size": 14435
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_rfq_tracking.py",
+      "sha256": "6b41be1cfbf0d58e06b01127dc86af47d5abe871a016da98931ced647d000967",
+      "size": 18956
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_sap_purchase_requisitions.py",
+      "sha256": "2bb848df759c736f7ad6a85f66bbbe158adbea55f2ea8a48b73369ed700b8902",
+      "size": 16371
+    },
+    {
+      "kind": "test",
+      "path": "agent/components/test_stock_rules.py",
+      "sha256": "90cf7b03cedffac3d859617b01ae46254997be64e541e7a5d19e46cd718365d6",
+      "size": 9362
+    },
+    {
+      "kind": "source",
+      "path": "agent/job_store.py",
+      "sha256": "f8001d7e837a3e3aa52b8c02a9606b90d875a164cc4e26d52ade922c0a534c87",
+      "size": 12161
+    },
+    {
+      "kind": "source",
+      "path": "agent/langflow_client.py",
+      "sha256": "5bd7d5219271832ea216cae45b0aad96a7e15bc7cbc91ebf3ac5b78dd7d6abc3",
+      "size": 6986
+    },
+    {
+      "kind": "source",
+      "path": "agent/monitor_procurement.py",
+      "sha256": "195919f101e36d8fb0b49f6cd21f41796c3171abb30e7b15cbe122105351cd0b",
+      "size": 24070
+    },
+    {
+      "kind": "source",
+      "path": "agent/negotiation_worker.py",
+      "sha256": "fc413662e5953c198312913b5cfef402a5013c882842c40f181a540f0b80afb6",
+      "size": 22833
+    },
+    {
+      "kind": "source",
+      "path": "agent/rfq_store.py",
+      "sha256": "02d8ee63d89c4efa18ca8a850a821798b15c8e38c4ad60f4d6072d5133b0dd79",
+      "size": 22043
+    },
+    {
+      "kind": "source",
+      "path": "agent/rfq_worker.py",
+      "sha256": "103cfd633d1d08a50d6529e56ef850151414e0c1187b027110e2bc174f2620c7",
+      "size": 3455
+    },
+    {
+      "kind": "source",
+      "path": "agent/runtime_config.py",
+      "sha256": "38b7609958cefcb2f7552d8dc93a60f7b53d866ac7ff22f9d2527f6d3d6ce02a",
+      "size": 8796
+    },
+    {
+      "kind": "source",
+      "path": "agent/sap_adapter.py",
+      "sha256": "9c09c7984a7eb2cd9b60b6796e7da2e55c621428bda73d245ae4d12a050c2d2e",
+      "size": 7425
+    },
+    {
+      "kind": "source",
+      "path": "agent/sap_connection.py",
+      "sha256": "65e3683155530a9ed9788273659e5af22062d8968feff77fa0edfc036ec55e22",
+      "size": 11810
+    },
+    {
+      "kind": "source",
+      "path": "agent/sap_diagnostics.py",
+      "sha256": "2054bf0843fe28f32209d7d2f8b725d13126c8126cafa981f949e01a986554cd",
+      "size": 12859
+    },
+    {
+      "kind": "source",
+      "path": "agent/sap_metadata.py",
+      "sha256": "bc5f952d26a0f6dfaca2699ab7e0feef994651905c132ead07301623b6336cc1",
+      "size": 17205
+    },
+    {
+      "kind": "source",
+      "path": "agent/sap_schema_review.py",
+      "sha256": "102bd339bcb7d290317fe012d8f2d7b101f69016481a4957e56bc0eddc6f529e",
+      "size": 5607
+    },
+    {
+      "kind": "source",
+      "path": "agent/sap_worker.py",
+      "sha256": "ce6d5e57d8271f61b98041f2cb0561a23dcbd9fed87464b610d6ef7b4febba08",
+      "size": 13792
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_case_store.py",
+      "sha256": "8a0a6fe4a67a1d53aaa0a0352ad8b08335f7422ecc35e3d8f9d38f4e88cdcb04",
+      "size": 21561
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_case_worker.py",
+      "sha256": "08903a6ed40968b31baa0c08a9f04be47d88c7f37f2e36217c62760922ec9e8b",
+      "size": 30329
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_handoff_flow.py",
+      "sha256": "37f350cd147ace0dd81d7375dc57fb551f7d5a9c5685bf5798b373d5b38076fc",
+      "size": 4310
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_monitor_requests.py",
+      "sha256": "1567750b1b1b05c3e3f3f0e3d0f272993e01c25740470cf82abdb0e6f39295d9",
+      "size": 16515
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_negotiation_worker.py",
+      "sha256": "fbbc3f2201408a45245d6b8dc590bb0bfb87ddaa03db14a29d4880af275bbcfc",
+      "size": 30354
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_portable_workers.py",
+      "sha256": "9210e677215ba24654cfb671c9ced9c3d640069a17cba6523e418368ee8f0833",
+      "size": 4937
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_purchase_intake.py",
+      "sha256": "ce30c396980d2977a4bf35b6676105ecc432004697a60578d22d41dbc1677dee",
+      "size": 9386
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_rfq_store.py",
+      "sha256": "f7f9e26192acd440eb7112979c82e70c7b15ca4007bc8bae9f0db70b3cd1b615",
+      "size": 18560
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_rfq_worker.py",
+      "sha256": "ea08418ac1d4b59cc895217bf39b5fd21febd7daf94b20f1688f52c99b154d4f",
+      "size": 3667
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_runtime_config.py",
+      "sha256": "4fd08450ce2a9d0f63fdcb6f5c2fc51688949c3ed436abad1f8df6b59a030b35",
+      "size": 21906
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_sap_adapter.py",
+      "sha256": "7f28b9ed49ac2dd227e28b20009655281bd34b8bd31d1fa5caee6ff08f55784f",
+      "size": 22063
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_sap_case_metadata.py",
+      "sha256": "5831ac470caf2282eb499e63fca78d261b9746ac7bbbdbd44be6b7918078a623",
+      "size": 3928
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_sap_catalog.py",
+      "sha256": "506c9f69c54590297d50f2f0a96250d73291db8f61368cfde6599ea70b6a1718",
+      "size": 17997
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_sap_diagnostics.py",
+      "sha256": "f457bda799c10faca422ac4efc0c8a46efee9f859a15c6c4bed8a4085ed59855",
+      "size": 21664
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_sap_pilot_coordination.py",
+      "sha256": "24cb1ed281ff82fd3050153c87dc9767ab4c265f192c56714a2e83e690c896e4",
+      "size": 3030
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_sap_pipeline.py",
+      "sha256": "c7405ec6116506c2beb8d0ba844f1699c065a91cf93a7a0bc4b37406fc4049f5",
+      "size": 9403
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_sap_schema_review.py",
+      "sha256": "be6733c8d039a48ec50f8f9936b8202e508794146e479098dfae74a4d1772bfc",
+      "size": 12817
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_sap_worker.py",
+      "sha256": "27d3d1bbc50d54261a8015d2b147832d820127dd0be2f7d8c885ce6cdbc63904",
+      "size": 21973
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_target_setup.py",
+      "sha256": "c0777ae0660e98cce0bca7f70522b03858fa0b83bfe451e125e4e58c5b339dcb",
+      "size": 20238
+    },
+    {
+      "kind": "test",
+      "path": "agent/test_transfer_package.py",
+      "sha256": "511b9c08a1a2793d676f7f6a66662aa814c1a917c120e48b14fc2c53d89d4646",
+      "size": 22961
+    },
+    {
+      "kind": "config",
+      "path": "config.example.json",
+      "sha256": "b0a26c890b66a21ecb43b934baa2c3ccc3e7b2d31fd652f5957140d30d4d36db",
+      "size": 244
+    },
+    {
+      "kind": "flow",
+      "path": "flow.json",
+      "sha256": "dec04fd5d940743eb1891c46a318e922615b09bccdd86e0d42586b337dc8527a",
+      "size": 852164
+    },
+    {
+      "kind": "setup",
+      "path": "requirements.txt",
+      "sha256": "b843ba60a052437944f8457603a59db22b79c5c14bc1fe4713d6b5dabd6b9df1",
+      "size": 169
+    },
+    {
+      "kind": "setup",
+      "path": "sap/BT_Teslim_Notu.md",
+      "sha256": "ea115890e81f899135bd97499624dbf65ede2d757d9e0a7671a28c5df9c7cefa",
+      "size": 8935
+    },
+    {
+      "kind": "setup",
+      "path": "sap/README.md",
+      "sha256": "eb054dc2e4961618c71410e6c505002779018d7c85f190b40ace3afa174cf085",
+      "size": 13931
+    },
+    {
+      "kind": "config",
+      "path": "sap/connection.example.json",
+      "sha256": "2a1c2f048d870aaac385822f10dab4a928dac1ccceacb98bf8f29b90771dd989",
+      "size": 416
+    },
+    {
+      "kind": "config",
+      "path": "sap/connection.pr-api.candidate.json",
+      "sha256": "3ea29823730dadf07e256d4c42c915ab7ae334c85aa8eb62388b0f82c9f97f2e",
+      "size": 472
+    },
+    {
+      "kind": "config",
+      "path": "sap/pr_field_contract.json",
+      "sha256": "6bd6aca63e0d415d1188025b2d55210f9e726bc3f808ef604cc4c46d5a1da617",
+      "size": 7772
+    },
+    {
+      "kind": "setup",
+      "path": "transfer/build_package.py",
+      "sha256": "8fff4d56e53952d73f894246652097ee4a6aeadf4cc3abf9f95468bd5dc9b4ef",
+      "size": 7677
+    },
+    {
+      "kind": "setup",
+      "path": "transfer/run_offline_tests.py",
+      "sha256": "22f09b4d1e74eb69e4ebcba582a95f12264ca2c308d98d85f8436918d2242236",
+      "size": 3816
+    },
+    {
+      "kind": "setup",
+      "path": "transfer/target_setup.py",
+      "sha256": "92344ccd81b77c0bbb9a100bf50ed5287c039993d45dc7555ca34f52feaef25a",
+      "size": 26396
+    },
+    {
+      "kind": "verifier",
+      "path": "transfer/verify_package.py",
+      "sha256": "d584b1af2056633fd9acaa603cb2aef372c2fb0d4a8c293c543054ed1be6b959",
+      "size": 24439
+    }
+  ],
+  "includes_business_data": false,
+  "package": "hammadde-sarf-satin-alma-agent",
+  "platform": "macos",
+  "production_ready": false,
+  "release_stage": "source_pilot",
+  "schema_version": 1,
+  "total_bytes": 2068794,
+  "total_files": 88,
+  "version": "0.3.0"
+}
