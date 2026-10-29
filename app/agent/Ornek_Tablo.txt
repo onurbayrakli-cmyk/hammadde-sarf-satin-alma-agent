@@ -1,0 +1,13 @@
+Bu tablo tamamen sentetiktir; gerçek şirket verisi değildir.
+Rapor tarihi: 2026-10-13. Günlük tüketim sabit varsayılır.
+Ayrılmış stok, günlük tüketimin kapsadığı gelecekteki ihtiyaçtan ayrı taleplere aittir.
+Kesin açık sipariş, teslim alınmamış kalan miktardır; mevcut stokta yer almaz.
+Sipariş teslimleri günün başında olur. Diğer iş kuralları (MOQ, paket katı, bütçe) verilmemiştir.
+
+malzeme_kodu;tanım;birim;mevcut_stok;ayrılmış_stok;kesin_açık_sipariş;günlük_tüketim;termin_gün;emniyet_stok;açık_sipariş_teslim_tarihi
+ORN001;Karton koli;ADET;30;10;0;10;5;20;
+ORN002;Ambalaj filmi;KG;220;20;0;8;10;30;
+ORN003;Karton etiket;ADET;80;20;30;10;6;20;2026-10-15
+ORN004;PE torba;ADET;500;100;0;;7;100;
+
+Bu tabloyu analiz et. Hangi malzeme acil, hangisi yeterli? Basit termin + emniyet stok kuralıyla önerilen satın alma miktarını hesapla. Bilgi eksiklerini ve hesap varsayımlarını açıkça belirt.

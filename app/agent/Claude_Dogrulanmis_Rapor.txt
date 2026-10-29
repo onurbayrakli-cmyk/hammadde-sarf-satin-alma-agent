@@ -1,0 +1,21 @@
+| Malzeme | Birim | Net stok | Hedef stok | Zamanında gelecek sipariş | Önerilen miktar | Durum |
+|---------|-------|----------|-----------|---------------------------|-----------------|--------|
+| ORN001 | ADET | 20 | 70 | 0 | 50 | Acil |
+| ORN002 | KG | 200 | 110 | 0 | 0 | Yeterli |
+| ORN003 | ADET | 60 | 80 | 30 | 0 | Yeterli |
+| ORN004 | ADET | 400 | — | — | — | Bilgi eksik |
+
+---
+
+**Hesap Varsayımları:**
+- Net stok = mevcut stok − ayrılmış stok
+- Hedef stok = günlük tüketim × termin gün + emniyet stok
+- Önerilen miktar = max(0, hedef stok − net stok − kesin açık sipariş)
+- Ayrılmış stok ve kesin açık sipariş günlük tüketime dahil değildir.
+- Günlük tüketim sabittir; sipariş teslimi günün başında gerçekleşir.
+
+**Bilgi Eksikleri:**
+- **ORN004:** Günlük tüketim alanı boştur; hedef stok ve önerilen miktar hesaplanmamıştır.
+
+**Acil İhtiyaç:**
+- **ORN001 (Karton koli):** Termin 5 gün içinde net stok tükenir (2 günlük raf ömrü). Normal terminli 50 ADET sipariş zamanında yetişmeyebilir; hızlandırılmış tedarik veya acil kaynak aranması önerilir.
